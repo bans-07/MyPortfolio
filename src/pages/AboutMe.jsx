@@ -2,8 +2,15 @@ function AboutMe() {
     return (
       <section className="text-center">
         <img src="/path-to-your-photo.jpg" alt="My Avatar" className="w-32 h-32 rounded-full mx-auto" />
-        <h2 className="text-2xl font-bold mt-4">Hello, I'm [Your Name]!</h2>
-        <p className="mt-2">I am a passionate web developer with experience in React, Node.js, and more.</p>
+        <h2 className="text-2xl font-bold mt-4">Hello, I'm Bansari!</h2>
+        <p className="mt-2">I am an experienced Quality Assurance Tester with a strong eye for detail and a passion for delivering high-quality software. 
+          Over time, through hands-on practice and attending a coding bootcamp, I have expanded my skill set to become a Full-Stack Developer. 
+          I have gained expertise in front-end and back-end development, as well as working with databases, allowing me to build and maintain complete web applications.
+          
+          With a strong foundation in both testing and development, I bring a unique perspective to software engineering, ensuring not only functionality but also efficiency and user experience.
+          I am eager to continue growing in this field and applying my skills to build innovative and reliable applications.
+
+</p>
       </section>
     );
   }
