@@ -22,9 +22,13 @@ function Contact() {
       }}
       className="space-y-4"
     >
-      <input type="text" placeholder="Name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
-      <input type="email" placeholder="Email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
-      <textarea placeholder="Message" value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })}></textarea>
+      {"Name: "} <input type="text" placeholder="Name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })}/>
+      <br></br>
+      <br></br>
+      {"Email Id:"}<input type="email" placeholder="Email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
+      <br></br>
+      <br></br>
+      {"Type your message here"}<textarea placeholder="Message" value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })}></textarea>
       <button type="submit" className="bg-blue-500 text-white px-4 py-2">Send</button>
       {Object.values(errors).map((error, index) => <p key={index} className="text-red-500">{error}</p>)}
     </form>

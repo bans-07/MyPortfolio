@@ -2,10 +2,10 @@ import Project from "../components/Project";
 
 const projects = [
   {
-    title: "Project 1",
-    image: "/path-to-project1.jpg",
-    deployedLink: "https://project1-demo.com",
-    repoLink: "https://github.com/yourusername/project1",
+    title: "Project 1: Aqua Buddy",
+    image: "MyPortfolio\src\assets\bottle.jpg",
+    deployedLink: "https://bans-07.github.io/Aqua-Buddy/",
+    repoLink: "https://github.com/bans-07/Aqua-Buddy",
   },
   // Add more projects here
 ];
