@@ -18,6 +18,7 @@ function Project({ title, image, deployedLink, repoLink }) {
           </div>
         </div>
       </div>
+      
     );
   }
   
