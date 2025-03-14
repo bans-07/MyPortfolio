@@ -7,7 +7,10 @@ const projects = [
     deployedLink: "https://bans-07.github.io/Aqua-Buddy/",
     repoLink: "https://github.com/bans-07/Aqua-Buddy",
   },
-  // Add more projects here
+  {
+    title: "Backend Project WorkForcePro ",
+    repoLink: "https://github.com/bans-07/WorkForcePro",
+  },
 ];
 
 function Portfolio() {
